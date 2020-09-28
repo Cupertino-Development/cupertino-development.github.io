@@ -2,3 +2,20 @@ theme: jekyll-theme-cayman
 
 title: Cupertino
 description: A next-level StackOverflow and Discord hybrid.
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-redirect-to
+# SEO Tag
+twitter:
+  username: CupertinoApp
+  card: summary
+
+# TODO: ADD LOGO (FAVICON) logo:
+# TODO: ADD IMAGE (IMAGE THAT SHOWS IN EMBEDS) image:
+
+# Google Analytics
+# TODO: ADD GOOGLE ANALYTICS TRACKING google_analytics:
