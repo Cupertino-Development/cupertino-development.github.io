@@ -1,6 +1,6 @@
 ---
 layout: post
-name: Will Cupertino take over StackOverflow and Discord?
+title: Will Cupertino take over StackOverflow and Discord?
 description: Look into it and decide for yourself.
 ---
 
