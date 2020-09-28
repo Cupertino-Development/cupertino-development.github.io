@@ -1,0 +1,7 @@
+--- --- @import "{{ site.theme }}";
+@media (prefers-color-scheme: dark) {
+    body {
+        color: whitesmoke;
+        background-color: rgb(70, 73, 74);
+    }
+}
