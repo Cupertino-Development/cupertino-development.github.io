@@ -1,9 +1,27 @@
---- 
+---
 --- 
 @import "{{ site.theme }}";
 @media (prefers-color-scheme: dark) {
     body {
         color: whitesmoke;
         background-color: rgb(70, 73, 74);
+    }
+}
+
+.page-header {
+    background: linear-gradient(#155798, #149858);
+    background-size: 600% 600%;
+    animation: gradient 12s infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
     }
 }
