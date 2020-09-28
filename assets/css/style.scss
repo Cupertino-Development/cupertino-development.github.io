@@ -1,4 +1,6 @@
---- --- @import "{{ site.theme }}";
+--- 
+--- 
+@import "{{ site.theme }}";
 @media (prefers-color-scheme: dark) {
     body {
         color: whitesmoke;
