@@ -9,8 +9,8 @@
 }
 
 .page-header {
-    background: linear-gradient(-45deg, #155798, #149858) alternate center center fixed;
-    background-size: 200% 200%;
+    background: linear-gradient(-45deg, #155798, #149858)no-repeat center center fixed;
+    background-size: 600% 600%;
     animation: gradient 6s infinite alternate;
 }
 
@@ -19,9 +19,9 @@
         background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 50%;
     }
     100% {
-        background-position: 200% 50%;
+        background-position: 100% 50%;
     }
 }
