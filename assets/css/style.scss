@@ -16,6 +16,7 @@
 .main-content {
     border-top-left-radius: var(--page-corner-radius);
     border-top-right-radius: var(--page-corner-radius);
+    margin-top: 15px;
 }
 .page-header {
     background: linear-gradient(-45deg, var(--linearGradient-start), var(--linearGradient-end))no-repeat center center fixed;
