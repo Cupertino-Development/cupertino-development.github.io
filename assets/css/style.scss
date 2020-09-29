@@ -1,19 +1,28 @@
 ---
 --- 
 @import "{{ site.theme }}";
+:root {
+    --dark-mode-bgColor: rgb(70, 73, 74);
+    --page-corner-radius: 12px;
+    --linearGradient-start: #155798;
+    --linearGradient-end: #149858;
+}
 @media (prefers-color-scheme: dark) {
     body {
         color: whitesmoke;
-        background-color: rgb(70, 73, 74);
+        background-color: var(--dark-mode-bgColor);
     }
 }
-
+.main-content {
+    border-top-left-radius: var(--page-corner-radius);
+    border-top-right-radius: var(--page-corner-radius);
+}
 .page-header {
-    background: linear-gradient(-45deg, #155798, #149858)no-repeat center center fixed;
+    background: linear-gradient(-45deg, var(--linearGradient-start), var(--linearGradient-end))no-repeat center center fixed;
     background-size: 600% 600%;
     animation: gradient 6s infinite alternate;
 }
-
+/* Keyframes */
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
