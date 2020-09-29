@@ -4,8 +4,6 @@
 :root {
     --dark-mode-bgColor: rgb(70, 73, 74);
     --page-corner-radius: 12px;
-    --linearGradient-start: #155798;
-    --linearGradient-end: #149858;
 }
 @media (prefers-color-scheme: dark) {
     body {
@@ -13,13 +11,9 @@
         background-color: var(--dark-mode-bgColor);
     }
 }
-.main-content {
-    border-top-left-radius: var(--page-corner-radius);
-    border-top-right-radius: var(--page-corner-radius);
-    margin-top: 15px;
-}
+
 .page-header {
-    background: linear-gradient(-45deg, var(--linearGradient-start), var(--linearGradient-end))no-repeat center center fixed;
+    background: linear-gradient(-120deg, var(--linearGradient-start), var(--linearGradient-end))no-repeat center center fixed;
     background-size: 600% 600%;
     animation: gradient 6s infinite alternate;
 }
