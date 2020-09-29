@@ -4,6 +4,8 @@
 :root {
     --dark-mode-bgColor: rgb(70, 73, 74);
     --page-corner-radius: 12px;
+    --linearGradient-start: #155798;
+    --linearGradient-end: #149858;
 }
 @media (prefers-color-scheme: dark) {
     body {
