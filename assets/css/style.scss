@@ -9,9 +9,9 @@
 }
 
 .page-header {
-    background: linear-gradient(#155798, #149858);
+    background: linear-gradient(-45deg, #155798, #149858)no-repeat center center fixed;
     background-size: 600% 600%;
-    animation: gradient 12s infinite;
+    animation: gradient 6s infinite;
 }
 
 @keyframes gradient {
